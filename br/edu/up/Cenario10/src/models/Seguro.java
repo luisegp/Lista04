@@ -1,9 +1,9 @@
 package models;
 
 public abstract class Seguro {
-    private String numeroApolice;
-    private String titular;
-    private double valorPremio;
+    protected String numeroApolice;
+    protected String titular;
+    protected double valorPremio;
 
     public Seguro(String numeroApolice, String titular, double valorPremio) {
         this.numeroApolice = numeroApolice;

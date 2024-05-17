@@ -7,8 +7,8 @@ import models.Pessoal;
 import models.Contato;
 
 public class ContatoController {
-    private Agenda agenda;
-    private ContatoView view;
+    protected Agenda agenda;
+    protected ContatoView view;
 
     public ContatoController(Agenda agenda, ContatoView view) {
         this.agenda = agenda;

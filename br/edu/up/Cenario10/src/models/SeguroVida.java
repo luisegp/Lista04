@@ -1,7 +1,7 @@
 package models;
 
 public class SeguroVida extends Seguro {
-    private double coberturaMorte;
+    protected double coberturaMorte;
 
     public SeguroVida(String numeroApolice, String titular, double valorPremio, double coberturaMorte) {
         super(numeroApolice, titular, valorPremio);

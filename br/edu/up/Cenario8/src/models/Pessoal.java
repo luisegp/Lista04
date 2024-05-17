@@ -1,7 +1,7 @@
 package models;
 
 public class Pessoal extends Contato {
-    private String aniversario;
+    protected String aniversario;
 
     public Pessoal(int codigo, String nome, String telefone, String aniversario) {
         super(codigo, nome, telefone);

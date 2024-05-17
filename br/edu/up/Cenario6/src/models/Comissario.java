@@ -3,7 +3,7 @@ import java.util.List;
 
 
 public class Comissario extends Tripulacao {
-    private List<String> idiomasFluencia;
+    protected List<String> idiomasFluencia;
 
     public List<String> getIdiomasFluencia() {
         return idiomasFluencia;

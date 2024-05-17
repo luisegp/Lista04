@@ -1,7 +1,7 @@
 package models;
 
 public class Comercial extends Contato {
-    private String empresa;
+    protected String empresa;
 
     public Comercial(int codigo, String nome, String telefone, String empresa) {
         super(codigo, nome, telefone);

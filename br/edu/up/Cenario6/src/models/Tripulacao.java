@@ -1,8 +1,8 @@
 
 package models;
 public class Tripulacao extends Pessoa {
-    private String identificacaoAeronautica;
-    private String matriculaFuncionario;
+    protected String identificacaoAeronautica;
+    protected String matriculaFuncionario;
 
     public String getIdentificacaoAeronautica() {
         return identificacaoAeronautica;

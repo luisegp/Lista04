@@ -1,9 +1,9 @@
 package models;
 
 public class Aeronave {
-    private String codigo;
-    private String tipo;
-    private int quantidadeAssentos;
+    protected String codigo;
+    protected String tipo;
+    protected int quantidadeAssentos;
 
     public String getCodigo() {
         return codigo;

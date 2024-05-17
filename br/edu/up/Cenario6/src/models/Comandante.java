@@ -1,7 +1,7 @@
 package models;
 
 public class Comandante extends Tripulacao {
-    private int totalHorasVoo;
+    protected int totalHorasVoo;
 
     public int getTotalHorasVoo() {
         return totalHorasVoo;
