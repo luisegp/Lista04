@@ -1,4 +1,3 @@
-package controls;
 
 public class Ponto {
     protected double x;
@@ -44,5 +43,3 @@ public double getY() {
     return y;
 }
 }
-
-
